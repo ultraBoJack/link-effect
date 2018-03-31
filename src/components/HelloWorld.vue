@@ -223,18 +223,30 @@ export default {
     outline: none;
   }
   
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content space-around;
+    flex-wrap wrap;
+  }
+
   section{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    align-content space-around
-    flex-wrap wrap
-    width: 100%;
-    height auto
+    align-content space-around;
+    flex-wrap wrap;
+    width: calc(100% - 12px);
+    height auto;
     padding: 60px 20px;
-    margin: 1px auto;
-    border: 1px solid rgba(255,255,255,0.2)
-    border-radius: 10px
+    margin: 20px;
+    border: 6px solid rgba(255,255,255,0.2)
+    border-radius: 36px;
+    transition: transform 0.5s;
+    &:hover{
+      transform: scale(1.02);
+    }
   }
   section a{
     display: inline-block;
