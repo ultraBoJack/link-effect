@@ -1,6 +1,6 @@
 # mine
 
-> A Vue.js project
+>a series of link effects which is written by Vuejs.
 
 >>![demo](./demo.gif)
 
