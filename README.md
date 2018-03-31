@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-![demo](base64ofDemo)
+![demo][base64ofDemo]
 
 ## Build Setup
 
