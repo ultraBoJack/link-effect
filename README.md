@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-![demo](./demo.gif)
+>>![demo](./demo.gif)
 
 ## Build Setup
 
